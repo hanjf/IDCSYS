@@ -1,0 +1,8 @@
+﻿<Window x:Class="温度控制系统wpf.refrig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="空调工作状态" Height="518.418" Width="527.755">
+    <Grid>
+
+    </Grid>
+</Window>

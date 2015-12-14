@@ -1,0 +1,27 @@
+﻿<Window x:Name="t111"
+    x:Class="温度控制系统wpf.t11"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="机柜状态" Height="634.696" Width="629.387">
+    <Grid RenderTransformOrigin="0.526,0.386" Margin="40,0,44,28">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="562*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="189*"/>
+            <ColumnDefinition Width="288*"/>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="34*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="入风温度" HorizontalAlignment="Left" Margin="66,84,0,0" VerticalAlignment="Top" Width="87" Height="25"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="66,130,0,0" VerticalAlignment="Top" Width="87" Height="25"/>
+        <Label Content="出风温度" Grid.Column="2" HorizontalAlignment="Left" Margin="37,84,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="Label" Grid.Column="2" HorizontalAlignment="Left" Margin="37,130,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label Content="机柜总发热量" HorizontalAlignment="Left" Margin="66,223,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="66,266,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="机柜制冷量" HorizontalAlignment="Left" Margin="66,372,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="66,425,0,0" VerticalAlignment="Top" Width="87"/>
+
+    </Grid>
+</Window>

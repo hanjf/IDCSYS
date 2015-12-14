@@ -4,6 +4,14 @@
         Title="cooler" Height="537" Width="717">
     <Grid Margin="0,0,2,9">
         <Image Source="D:\C#\温度控制系统wpf\温度控制系统wpf\制冷循环2.png" HorizontalAlignment="Left" Height="383" Margin="31,10,0,0" VerticalAlignment="Top" Width="655" />
+        <Button Content="运行状态" HorizontalAlignment="Left" Margin="10,235,0,0" VerticalAlignment="Top" Width="58" Height="20"/>
+        <Button Content="运行状态" HorizontalAlignment="Left" Margin="269,365,0,0" VerticalAlignment="Top" Width="58"/>
+        <Button Content="运行状态" HorizontalAlignment="Left" Margin="571,209,0,0" VerticalAlignment="Top" Width="58"/>
+        <Button Content="运行状态" HorizontalAlignment="Left" Margin="250,122,0,0" VerticalAlignment="Top" Width="58"/>
+        <Ellipse Fill="#008B00" HorizontalAlignment="Left" Height="18" Margin="313,123,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" />
+        <Ellipse Fill="#008B00" HorizontalAlignment="Left" Height="18" Margin="73,237,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" />
+        <Ellipse Fill="#008B00" HorizontalAlignment="Left" Height="18" Margin="332,366,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" />
+        <Ellipse Fill="#008B00" HorizontalAlignment="Left" Height="18" Margin="634,210,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" />
 
     </Grid>
 </Window>

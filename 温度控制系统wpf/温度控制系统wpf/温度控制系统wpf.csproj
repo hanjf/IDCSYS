@@ -34,6 +34,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Apex">
+      <HintPath>SharpGL.WPF\Apex.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL">
+      <HintPath>SharpGL.WPF\SharpGL.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph">
+      <HintPath>SharpGL.WPF\SharpGL.SceneGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WPF">
+      <HintPath>SharpGL.WPF\SharpGL.WPF.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -66,6 +78,9 @@
     <Compile Include="ups.xaml.cs">
       <DependentUpon>ups.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SharpGLWindow.xaml.cs">
+      <DependentUpon>SharpGLWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="cooler.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +106,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ups.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SharpGLWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

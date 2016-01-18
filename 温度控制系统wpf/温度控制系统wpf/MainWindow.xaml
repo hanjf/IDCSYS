@@ -36,6 +36,7 @@
                     <Button Content="ups" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="168" Height="160" Click="Button_Click_3"/>
                     <Ellipse Grid.Column="1" Fill="#FF00FF00" HorizontalAlignment="Left" Height="10" Margin="380,622,0,0" Stroke="Black" VerticalAlignment="Top" Width="10"  />
                     <Ellipse Grid.Column="1" Fill="#FF00FF00" HorizontalAlignment="Left" Height="10" Margin="717,622,0,0" Stroke="Black" VerticalAlignment="Top" Width="10"  />
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="70,539,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
                 </Grid>
             </TabItem>
         </TabControl>

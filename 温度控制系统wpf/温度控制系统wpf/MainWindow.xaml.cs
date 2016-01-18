@@ -208,5 +208,11 @@ namespace 温度控制系统wpf
             ups1.ShowDialog();
         }
 
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            SharpGLWindow window = new SharpGLWindow();
+            window.ShowDialog();
+        }
+
     }
 }

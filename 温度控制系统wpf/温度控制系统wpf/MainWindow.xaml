@@ -10,30 +10,32 @@
                         <ColumnDefinition Width="189*"/>
                         <ColumnDefinition Width="997*"/>
                     </Grid.ColumnDefinitions>
-                    <Button x:Name="t11" Grid.Column="1" HorizontalAlignment="Left" Margin="65,89,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t11_Click"/>
-                    <Button x:Name="t12" Grid.Column="1" HorizontalAlignment="Left" Margin="226,89,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t12_Click"/>
-                    <Button x:Name="t13" Grid.Column="1" HorizontalAlignment="Left" Margin="402,89,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t13_Click_1"/>
-                    <Button x:Name="t14" Grid.Column="1" HorizontalAlignment="Left" Margin="596,89,0,0" VerticalAlignment="Top" Width="98" Height="60" Click="t14_Click"/>
-                    <Button x:Name="t15" Grid.Column="1" HorizontalAlignment="Left" Margin="798,89,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t15_Click"/>
-                    <Button x:Name="t21" Grid.Column="1" HorizontalAlignment="Left" Margin="65,189,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t21_Click"/>
-                    <Button x:Name="t22" Grid.Column="1" HorizontalAlignment="Left" Margin="226,189,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t22_Click"/>
-                    <Button x:Name="t23" Grid.Column="1" HorizontalAlignment="Left" Margin="402,189,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t23_Click"/>
-                    <Button x:Name="t24" Grid.Column="1" HorizontalAlignment="Left" Margin="596,189,0,0" VerticalAlignment="Top" Width="98" Height="60" Click="t24_Click"/>
-                    <Button x:Name="t25" Grid.Column="1" HorizontalAlignment="Left" Margin="798,189,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t25_Click"/>
-                    <Button x:Name="t31" Grid.Column="1" HorizontalAlignment="Left" Margin="65,289,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t31_Click"/>
-                    <Button x:Name="t32" Grid.Column="1" HorizontalAlignment="Left" Margin="226,289,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t32_Click"/>
-                    <Button x:Name="t33" Grid.Column="1" HorizontalAlignment="Left" Margin="402,289,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t33_Click"/>
-                    <Button x:Name="t34" Grid.Column="1" HorizontalAlignment="Left" Margin="596,289,0,0" VerticalAlignment="Top" Width="98" Height="60" Click="t34_Click"/>
-                    <Button x:Name="t35" Grid.Column="1" HorizontalAlignment="Left" Margin="798,289,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t35_Click"/>
-                    <Button x:Name="t41" Grid.Column="1" HorizontalAlignment="Left" Margin="65,389,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t41_Click"/>
-                    <Button x:Name="t42" Grid.Column="1" HorizontalAlignment="Left" Margin="226,389,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t42_Click"/>
-                    <Button x:Name="t43" Grid.Column="1" HorizontalAlignment="Left" Margin="402,389,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t43_Click"/>
-                    <Button x:Name="t44" Grid.Column="1" HorizontalAlignment="Left" Margin="596,389,0,0" VerticalAlignment="Top" Width="98" Height="60" Click="t44_Click"/>
-                    <Button x:Name="t45" Grid.Column="1" HorizontalAlignment="Left" Margin="798,389,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t45_Click"/>
-                    <Button Content="空调1" Grid.Column="1" HorizontalAlignment="Left" Margin="194,593,0,0" VerticalAlignment="Top" Width="203" Height="61" Click="Button_Click"/>
-                    <Button Content="空调2" Grid.Column="1" HorizontalAlignment="Left" Margin="534,593,0,0" VerticalAlignment="Top" Width="224" Height="61" Click="Button_Click_1"/>
-                    <Button Content="冷机" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="168" Height="154" Click="Button_Click_2"/>
+                    <Button x:Name="t11" Grid.Column="1"  HorizontalAlignment="Left" Margin="65,89,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t11_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t12" Grid.Column="1" HorizontalAlignment="Left" Margin="226,89,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t12_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t13" Grid.Column="1" HorizontalAlignment="Left" Margin="402,89,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t13_Click_1" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t14" Grid.Column="1" HorizontalAlignment="Left" Margin="596,89,0,0" VerticalAlignment="Top" Width="98" Height="60" Click="t14_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t15" Grid.Column="1" HorizontalAlignment="Left" Margin="798,89,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t15_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t21" Grid.Column="1" HorizontalAlignment="Left" Margin="65,189,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t21_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t22" Grid.Column="1" HorizontalAlignment="Left" Margin="226,189,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t22_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t23" Grid.Column="1" HorizontalAlignment="Left" Margin="402,189,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t23_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t24" Grid.Column="1" HorizontalAlignment="Left" Margin="596,189,0,0" VerticalAlignment="Top" Width="98" Height="60" Click="t24_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t25" Grid.Column="1" HorizontalAlignment="Left" Margin="798,189,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t25_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t31" Grid.Column="1" HorizontalAlignment="Left" Margin="65,289,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t31_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t32" Grid.Column="1" HorizontalAlignment="Left" Margin="226,289,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t32_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t33" Grid.Column="1" HorizontalAlignment="Left" Margin="402,289,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t33_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t34" Grid.Column="1" HorizontalAlignment="Left" Margin="596,289,0,0" VerticalAlignment="Top" Width="98" Height="60" Click="t34_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t35" Grid.Column="1" HorizontalAlignment="Left" Margin="798,289,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t35_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t41" Grid.Column="1" HorizontalAlignment="Left" Margin="65,389,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t41_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t42" Grid.Column="1" HorizontalAlignment="Left" Margin="226,389,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t42_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t43" Grid.Column="1" HorizontalAlignment="Left" Margin="402,389,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t43_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t44" Grid.Column="1" HorizontalAlignment="Left" Margin="596,389,0,0" VerticalAlignment="Top" Width="98" Height="60" Click="t44_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button x:Name="t45" Grid.Column="1" HorizontalAlignment="Left" Margin="798,389,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="t45_Click" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Malgun Gothic Semilight"/>
+                    <Button Content="空调1" Grid.Column="1" HorizontalAlignment="Left" Margin="194,593,0,0" VerticalAlignment="Top" Width="210" Height="61" Click="Button_Click" />
+                    <Button Content="空调2" Grid.Column="1" HorizontalAlignment="Left" Margin="534,593,0,0" VerticalAlignment="Top" Width="210" Height="61" Click="Button_Click_1" />
+                    <Button Content="冷机" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="168" Height="154" Click="Button_Click_2" />
                     <Button Content="ups" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="168" Height="160" Click="Button_Click_3"/>
+                    <Ellipse Grid.Column="1" Fill="#FF00FF00" HorizontalAlignment="Left" Height="10" Margin="380,622,0,0" Stroke="Black" VerticalAlignment="Top" Width="10"  />
+                    <Ellipse Grid.Column="1" Fill="#FF00FF00" HorizontalAlignment="Left" Height="10" Margin="717,622,0,0" Stroke="Black" VerticalAlignment="Top" Width="10"  />
                 </Grid>
             </TabItem>
         </TabControl>

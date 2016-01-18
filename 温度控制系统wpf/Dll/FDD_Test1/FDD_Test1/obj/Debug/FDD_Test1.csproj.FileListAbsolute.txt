@@ -1,0 +1,14 @@
+F:\研一\测试\FDD_Test1\FDD_Test1\bin\Debug\FDD_Test1.exe.config
+F:\研一\测试\FDD_Test1\FDD_Test1\bin\Debug\FDD_Test1.exe
+F:\研一\测试\FDD_Test1\FDD_Test1\bin\Debug\FDD_Test1.pdb
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\FDD_Test1.csprojResolveAssemblyReference.cache
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\MainWindow.g.cs
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\App.g.cs
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\FDD_Test1_MarkupCompile.cache
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\FDD_Test1_MarkupCompile.lref
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\MainWindow.baml
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\FDD_Test1.g.resources
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\FDD_Test1.Properties.Resources.resources
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\FDD_Test1.csproj.GenerateResource.Cache
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\FDD_Test1.exe
+F:\研一\测试\FDD_Test1\FDD_Test1\obj\Debug\FDD_Test1.pdb

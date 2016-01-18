@@ -57,3 +57,6 @@ D:\git\git\温度控制系统wpf\温度控制系统wpf\obj\Debug\温度控制系
 D:\git\git\温度控制系统wpf\温度控制系统wpf\obj\Debug\温度控制系统wpf.g.resources
 D:\git\git\温度控制系统wpf\温度控制系统wpf\obj\Debug\温度控制系统wpf.Properties.Resources.resources
 D:\git\git\温度控制系统wpf\温度控制系统wpf\obj\Debug\温度控制系统wpf.csproj.GenerateResource.Cache
+G:\温度控制系统wpf\温度控制系统wpf\bin\Debug\温度控制系统wpf.exe.config
+G:\温度控制系统wpf\温度控制系统wpf\obj\Debug\温度控制系统wpf.exe
+G:\温度控制系统wpf\温度控制系统wpf\obj\Debug\温度控制系统wpf.pdb

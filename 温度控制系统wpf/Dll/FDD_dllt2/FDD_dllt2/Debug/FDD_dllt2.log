@@ -1,0 +1,47 @@
+﻿生成启动时间为 2015/12/29 14:44:15。
+     1>项目“F:\研一\测试\FDD_dllt2\FDD_dllt2\FDD_dllt2.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FDD_DLLT2_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Addup.cpp average.cpp faultdesign.cpp forecast.cpp HVAC.cpp Interface.cpp main.cpp Readdata.cpp ReaddataFileChange.cpp ReadNowdata.cpp Readparameter.cpp ReadparameterFileChange.cpp variance.cpp WriteFile.cpp XD.cpp
+         XD.cpp
+         WriteFile.cpp
+         variance.cpp
+         ReadparameterFileChange.cpp
+         Readparameter.cpp
+         ReadNowdata.cpp
+         ReaddataFileChange.cpp
+         Readdata.cpp
+         main.cpp
+         Interface.cpp
+         HVAC.cpp
+     1>f:\研一\测试\fdd_dllt2\fdd_dllt2\hvac.cpp(470): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+     1>f:\研一\测试\fdd_dllt2\fdd_dllt2\hvac.cpp(477): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+         forecast.cpp
+         faultdesign.cpp
+         average.cpp
+         Addup.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\研一\测试\FDD_dllt2\Debug\FDD_dllt2.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\研一\测试\FDD_dllt2\Debug\FDD_dllt2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\研一\测试\FDD_dllt2\Debug\FDD_dllt2.lib" /MACHINE:X86 /DLL Debug\Addup.obj
+         Debug\average.obj
+         Debug\faultdesign.obj
+         Debug\forecast.obj
+         Debug\HVAC.obj
+         Debug\Interface.obj
+         Debug\main.obj
+         Debug\Readdata.obj
+         Debug\ReaddataFileChange.obj
+         Debug\ReadNowdata.obj
+         Debug\Readparameter.obj
+         Debug\ReadparameterFileChange.obj
+         Debug\variance.obj
+         Debug\WriteFile.obj
+         Debug\XD.obj
+           正在创建库 F:\研一\测试\FDD_dllt2\Debug\FDD_dllt2.lib 和对象 F:\研一\测试\FDD_dllt2\Debug\FDD_dllt2.exp
+         FDD_dllt2.vcxproj -> F:\研一\测试\FDD_dllt2\Debug\FDD_dllt2.dll
+     1>已完成生成项目“F:\研一\测试\FDD_dllt2\FDD_dllt2\FDD_dllt2.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:08.37

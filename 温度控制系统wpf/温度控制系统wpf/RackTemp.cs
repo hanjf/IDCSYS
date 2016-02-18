@@ -10,7 +10,8 @@ namespace 温度控制系统wpf
 {
     class readdata
     {
-         public readdata(string[] args)
+        //double[] tempdata = new double[30];
+         public static double readdata1(int i)
         {
             string oldValue = string.Empty, newValue = string.Empty;
             using (StreamReader read = new StreamReader(@"C:\Users\jack\Source\Repos\IDCSYS\温度控制系统wpf\温度控制系统wpf\bin\Debug\data.txt", true))
@@ -23,31 +24,35 @@ namespace 温度控制系统wpf
             }
             //Console.WriteLine(oldValue);
             //string[] temp = new string[30];
+            //double[] tempdata = new double[30];
             double[] tempdata = new double[30];
-            string[] temp = oldValue.Split(new char[2] { ' ',','});
-            for (int i = 2; i < 30; i++)
+            string[] temp = oldValue.Split(new char[1] { ','});
+            for (int j = 4; j < 30; j++)
             {
-                while (temp[i] != null);
+                while (temp[j] != null)
                 {
-                    tempdata[i] = Convert.ToDouble(temp[i]);
+                     tempdata[j] = Convert.ToDouble(temp[j]);
                 }
             }
-           // double temp = Convert.ToDouble(oldValue);
-           // double tempdata = Double.
-
+            // double temp = Convert.ToDouble(oldValue);
+            // double tempdata = Double.
+            return tempdata[i];
         }
     }
     class RackTemp
     {
-        public int[,] rackt = new int[5,4];
+        public double [,] rackt = new double [5,4];
         public RackTemp()
         {
             Random r = new Random();
+           // readdata t = new readdata();
              for (int i = 0;i< 5;i++)
              {
                  for (int j = 0;j <4;j++)
                  {
-                     rackt[i,j] = r.Next(20,30);
+                    //rackt[i,j] = r.Next(20,30);
+                    int k = i + j;
+                    rackt[i, j] = readdata.readdata1(k);
                  }
              }
         }

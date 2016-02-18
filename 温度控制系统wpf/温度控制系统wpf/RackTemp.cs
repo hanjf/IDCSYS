@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace 温度控制系统wpf
 {
@@ -21,6 +22,19 @@ namespace 温度控制系统wpf
                 } while (newValue != null);
             }
             //Console.WriteLine(oldValue);
+            //string[] temp = new string[30];
+            double[] tempdata = new double[30];
+            string[] temp = oldValue.Split(new char[2] { ' ',','});
+            for (int i = 2; i < 30; i++)
+            {
+                while (temp[i] != null);
+                {
+                    tempdata[i] = Convert.ToDouble(temp[i]);
+                }
+            }
+           // double temp = Convert.ToDouble(oldValue);
+           // double tempdata = Double.
+
         }
     }
     class RackTemp

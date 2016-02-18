@@ -27,9 +27,9 @@ namespace 温度控制系统wpf
             //double[] tempdata = new double[30];
             double[] tempdata = new double[30];
             string[] temp = oldValue.Split(new char[1] { ','});
-            for (int j = 4; j < 30; j++)
+            for (int j = 4; j < 22; j++)
             {
-                while (temp[j] != null)
+                if (temp[j] != null)
                 {
                      tempdata[j] = Convert.ToDouble(temp[j]);
                 }

@@ -14,13 +14,21 @@ namespace 温度控制系统wpf
          public static double readdata1(int i)
         {
             string oldValue = string.Empty, newValue = string.Empty;
-            using (StreamReader read = new StreamReader(@"C:\Users\jack\Source\Repos\IDCSYS\温度控制系统wpf\温度控制系统wpf\bin\Debug\data.txt", true))
+            try
             {
-                do
+                using (StreamReader read = new StreamReader(@"C:\Users\jack\Source\Repos\IDCSYS\温度控制系统wpf\温度控制系统wpf\bin\Debug\data.txt", true))
+
+
                 {
-                    newValue = read.ReadLine();
-                    oldValue = newValue != null ? newValue : oldValue;
-                } while (newValue != null);
+                    do
+                    {
+                        newValue = read.ReadLine();
+                        oldValue = newValue != null ? newValue : oldValue;
+                    } while (newValue != null);
+                }
+            } 
+            catch (Exception e)
+            {
             }
             //Console.WriteLine(oldValue);
             //string[] temp = new string[30];
@@ -44,14 +52,14 @@ namespace 温度控制系统wpf
         public double [,] rackt = new double [5,4];
         public RackTemp()
         {
-            Random r = new Random();
-           // readdata t = new readdata();
+            //Random r = new Random();
+            //readdata t = new readdata();
              for (int i = 0;i< 5;i++)
              {
                  for (int j = 0;j <4;j++)
                  {
                     //rackt[i,j] = r.Next(20,30);
-                    int k = i + j;
+                    int k = i + j + 1;
                     rackt[i, j] = readdata.readdata1(k);
                  }
              }
